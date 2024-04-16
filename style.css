@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body{
+    background-color: #151320;
+    width: 100%;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 100px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+ h1 {
+    font-size: 35px;
+}
+
+ h3 {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+h4{
+    font-size: 15px;
+}
+
+p{
+    font-size: 15px;
+    margin: 15px 0;   
+    text-indent: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 25px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.img {
+    position: relative;
+    animation: img 4s ease-in-out infinite alternate;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+@keyframes img{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.meio{
+    margin-top: 190px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fim{
+    margin-top:240px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.alunos{
+    margin-top: 40px;
+}
+
+legend{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+li{
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 4px;
+}
